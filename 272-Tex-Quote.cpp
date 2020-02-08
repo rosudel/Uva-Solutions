@@ -7,7 +7,7 @@ int main(){
 	while(getline(cin, str)){
 		for(int i = 0; i < str.size(); i++){
 			if(str[i] == '\"')
-				if(flag % 2 == 1){
+				if(flag & 1){
 					str.replace(i,1,"``");
 					flag++;
 				}
