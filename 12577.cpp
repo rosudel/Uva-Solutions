@@ -18,3 +18,5 @@ int main(){
             cout << "Case "<<i<<": Hajj-e-Asghar\n";
     }
 }
+
+//done
